@@ -43,4 +43,8 @@ const difficulty = 4; // You can increase this for more challenge
 const myBlock = new Block(1, new Date().toISOString(), { amount: 100 }, "0");
 
 console.log("🚀 Starting mining simulation...");
+<<<<<<< HEAD
 myBlock.mineBlock(difficulty);
+=======
+myBlock.mineBlock(difficulty);
+>>>>>>> a83280ee64bc133ddbabb32bba19b8d9e3004cb5

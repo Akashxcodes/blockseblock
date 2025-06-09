@@ -77,4 +77,8 @@ console.log(JSON.stringify(demoChain, null, 2));
 demoChain.chain[1].data = { amount: 100 };
 demoChain.chain[1].hash = demoChain.chain[1].calculateHash();
 
+<<<<<<< HEAD
 console.log("Is blockchain valid after tampering?", demoChain.isChainValid());
+=======
+console.log("Is blockchain valid after tampering?", demoChain.isChainValid());
+>>>>>>> a83280ee64bc133ddbabb32bba19b8d9e3004cb5

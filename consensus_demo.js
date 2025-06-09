@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> a83280ee64bc133ddbabb32bba19b8d9e3004cb5
 // Consensus Mechanism Simulation
 //             // Check if the current block's hash is valid
 
@@ -53,4 +56,8 @@ function delegatedProofOfStake(voters) {
 console.log("=== 🔁 Consensus Mechanism Simulation ===\n");
 proofOfWork(miner);
 proofOfStake(staker);
+<<<<<<< HEAD
 delegatedProofOfStake(voters);
+=======
+delegatedProofOfStake(voters);
+>>>>>>> a83280ee64bc133ddbabb32bba19b8d9e3004cb5
